@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-head{
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 730px;
+    margin: 0 auto 50px;
+    /* border: 2px solid rebeccapurple; */
+    
+}
+.text-head h1{
+    margin-bottom: 15px;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.text-head p{
+    font-size: 18px;
+    color: #636363;
+}
+.about img{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+
+}
+.in-about h4{ 
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+    color: #636363;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #1f1f2c;
+    font-size: 15px;
+}
+a i{
+    font-size: 12px;
+}
